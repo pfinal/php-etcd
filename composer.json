@@ -1,0 +1,25 @@
+{
+  "name": "pfinal/etcd-php",
+  "type": "library",
+  "description": "PHP client for Etcd v3",
+  "keywords": ["etcdv3", "etcd", "etcd-client", "etcd-php"],
+  "homepage": "https://github.com/pfinal/etcd-php",
+  "license": "MIT",
+   "require": {
+     "php": ">= 5.5",
+     "guzzlehttp/guzzle": "~6.0"
+   },
+   "require-dev": {
+     "phpunit/phpunit": "4.5.*"
+   },
+   "autoload": {
+     "psr-4": {
+       "Etcd\\": "src/"
+     }
+   },
+   "autoload-dev": {
+     "psr-4": {
+       "Etcd\\Tests\\": "tests/"
+     }
+   }
+}
